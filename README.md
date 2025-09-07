@@ -67,14 +67,17 @@ Run PPO-based exploitation:
 ```bash 
 python3 cmodel2.py
 ```
-🧠 Research Background
+
+## 🧠 Research Background
+
 This project was also presented in the paper:
 
 [“Metasploit-Based Automated Penetration Testing Using Reinforcement Learning”](https://ieeexplore.ieee.org/document/10863399)
 
 It introduces PPO as a reinforcement learning algorithm for real-time exploit selection, addressing the shortcomings of traditional manual penetration testing.
 
-🔮 Future Work
+
+## 🔮 Future Work
 Expand beyond Metasploit’s built-in modules with Exploit-DB integration.
 
 Add attack graph visualization via MulVAL.
