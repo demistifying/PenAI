@@ -1,0 +1,4 @@
+gym
+numpy
+stable-baselines3
+pymetasploit3
