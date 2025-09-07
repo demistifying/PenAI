@@ -20,13 +20,21 @@ Developed as part of an academic research paper, the framework demonstrates how 
 
 ## 📂 Project Structure
 ├── cmodel2.py # PPO environment and RL agent
+
 ├── parse3.py # Nmap parsing + Metasploit exploit mapping
+
 ├── requirements.txt # Python dependencies
+
 ├── README.md # Project documentation
+
 ├── docs/
+
 │ └── Research_Paper.pdf # Full research paper
+
 ├── samples/
+
 │ ├── nmap_scan.xml # Example Nmap scan
+
 │ └── nmap_metasploit_results.json # Sample parsed output
 
 ## 🚀 Getting Started
@@ -56,13 +64,14 @@ Output will be saved as nmap_metasploit_results.json.
 ```
 Run PPO-based exploitation:
 
-```bash
-Copy code
+```bash 
 python3 cmodel2.py
 ```
 🧠 Research Background
 This project was also presented in the paper:
+
 [“Metasploit-Based Automated Penetration Testing Using Reinforcement Learning”](https://ieeexplore.ieee.org/document/10863399)
+
 It introduces PPO as a reinforcement learning algorithm for real-time exploit selection, addressing the shortcomings of traditional manual penetration testing.
 
 🔮 Future Work
