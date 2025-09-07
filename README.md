@@ -56,14 +56,16 @@ Usage
 Run an Nmap scan and export to XML:
 ```bash 
 sudo nmap -sV -O <target-ip> -oX nmap_scan.xml
-Parse scan results and map exploits:
 ```
+
+Parse scan results and map exploits:
 ```bash
 python3 parse3.py
-Output will be saved as nmap_metasploit_results.json.
 ```
-Run PPO-based exploitation:
 
+Output will be saved as nmap_metasploit_results.json.
+
+Run PPO-based exploitation:
 ```bash 
 python3 cmodel2.py
 ```
