@@ -27,10 +27,6 @@ Developed as part of an academic research paper, the framework demonstrates how 
 
 ├── README.md # Project documentation
 
-├── docs/
-
-│ └── Research_Paper.pdf # Full research paper
-
 ├── samples/
 
 │ ├── nmap_scan.xml # Example Nmap scan
